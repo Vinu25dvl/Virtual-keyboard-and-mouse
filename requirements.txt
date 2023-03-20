@@ -4,3 +4,4 @@ pyautoGUI
 cvzone==1.4.1
 pynput
 flask
+gunicorn
