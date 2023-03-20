@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mouse</title>
+        <link rel="stylesheet" href="static\style2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+        <style>
+            .container1{
+                text-align:center;
+                padding-top: 10px;
+            }
+            .container2{
+                background: url("https://content.presentermedia.com/files/animsp/00003000/3898/hand_on_mouse_PA_lg_wm.gif");
+                margin-top: 10px;
+                background-color: rgba(232, 237, 219, 0.737);
+                background-size: 800px 700px;
+                background-position: center 10px;
+                /* background-origin: 5px; */
+                background-repeat: no-repeat;
+                width:100vw;
+                height:90vh;
+            }
+            .all{
+            margin: 3px;
+            padding: 5px;
+            }
+            .btn{
+                color: rgb(35, 59, 211);
+                text-align: center;
+                font-family: 'Rubik', sans-serif;
+                font-family: 'Shantell Sans', cursive;
+                background-color: rgb(123, 141, 231);
+                border-color: rgb(35, 59, 211);
+                border-width: 2px;
+                border-radius: 5px;
+                height: 40px;
+                width: 100px;
+                margin: 10px;
+                padding: 3px;
+            }
+
+            .btn:hover{
+                background-color: rgb(1, 1, 88);
+                border-color: rgb(1, 1, 88);
+                color: white;
+                transform:translateY(-10px);
+                transition: 0.25s;
+            }
+        </style>
+    </head>
+    <body class="all">
+        <div class="container2">
+            <section class="container1">
+                <button class="btn">Mouse</button>
+                <div>
+                    <form action="/home2" method="GET">
+                        <button class="btn" type="submit"><b>Eyes</b></button>
+                      </form>
+                      <form action="/home" method="GET">
+                        <button class="btn" type="submit"><b>Hands</b></button>
+                      </form>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
