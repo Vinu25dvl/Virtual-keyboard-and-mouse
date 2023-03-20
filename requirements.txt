@@ -1,4 +1,4 @@
-
+opencv-python
 mediapipe
 pyautoGUI
 cvzone==1.4.1
