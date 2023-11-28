@@ -1,10 +1,10 @@
 # Virtual-keyboard-and-mouse
 created virtual mouse and keyboard using openCV and deployed it in local system
-#Description of domain: 
+# Description of domain: 
 Virtual Mouse is an application which can replace your Computer Mouse and touchpad of your Laptop with normal hand gestures and eye movements. The concept behind using this application is to make waving our hands in front of our computer/laptop like a magic wand. Hand gestures are the most natural and effortless manner of communicating. This application will also help physically disabled people to perform the functions of a mouse using their eye movement. The Virtual Mouse provides an infrastructure between the user and the system using only a camera. It allows users to interface with machines without the use of mechanical or physical devices, and even control mouse functionalities. The suggested system will require the use of OpenCV and Python as well as other tools. OpenCV is a huge open-source library for computer vision, machine learning and image processing. It can process images and videos to identify objects, faces, hand gestures and many more things.  
 Proposed work: 
-#Virtual Mouse  and virtual keyboard using Hands:
+# Virtual Mouse  and virtual keyboard using Hands:
 Using OpenCV, we access the web cam and make it to run continuously to detect the hands. To identify the hand, we make use of MediaPipe hand Landmarker. It lets you detect the landmarks of the hands in the captured video and outputs hand landmarks with coordinates. Python pyautogui is an automation library that allows mouse and keyboard control. Using pyautogui moveTo(), click() methods, we access the specified landmarks on the hand and make it to act as a virtual mouse. To move the cursor throughout the screen, we adjust the scale of video frame with respect to the size of entire screen.
         
-#Virtual Mouse using Eyes:
+# Virtual Mouse using Eyes:
 Using OpenCV, we access the web cam and make it to run continuously to detect the face.To identify eyes, we make use of MediaPipe Face Mesh  Landmarker and majorly focus on eye landmarks detection only. It lets you detect the landmarks of the eyes in the captured video and outputs eye landmarks with coordinates. Python pyautogui is an automation library that allows mouse and keyboard control. Using pyautogui moveTo(), click() methods, we access the specified landmarks on the eye and make it to act as a virtual mouse. To move the cursor throughout the screen, we adjust the scale of video frame with respect to the size of entire screen.
